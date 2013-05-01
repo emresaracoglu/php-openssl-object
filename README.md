@@ -45,7 +45,7 @@ var_dump($ssl->encrypt('some data'));
 // decrypt data, set passphrase and privatekey before
 var_dump($ssl->decrypt('some encrypted data'));
 ```
-/*
+
  * ----------------------------------------------------------------------------
  * "THE BEER-WARE LICENSE" (Revision 42):
  * <phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you
@@ -53,7 +53,6 @@ var_dump($ssl->decrypt('some encrypted data'));
  * this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp
  * ----------------------------------------------------------------------------
  * http://en.wikipedia.org/wiki/Beerware
- */
- /*
-  * Switch beer with whiskey ;)
-  */
+ *
+ *
+ * Switch beer with whiskey ;)
