@@ -28,4 +28,18 @@
   $privateKey = openssl_pkey_get_private(file_get_contents('privatekey'), $passphrase);
   openssl_private_decrypt($encryptedData, $output, $privateKey);
   var_dump($output);
+  
+  /*
+   * ----------------------------------------------------------------------------
+   * "THE BEER-WARE LICENSE" (Revision 42):
+   * <adn:@westberliner> wrote this file. As long as you retain this notice you
+   * can do whatever you want with this stuff. If we meet some day, and you think
+   * this stuff is worth it, you can buy me a beer in return Patrick Herzberg
+   * ----------------------------------------------------------------------------
+   * http://en.wikipedia.org/wiki/Beerware
+   *
+   *
+   * Switch beer with whiskey ;)
+   */
 ?>
+
